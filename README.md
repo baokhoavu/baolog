@@ -30,24 +30,14 @@ Once the site is ready, you'll need to install the [WPGraphQL](https://www.wpgra
 
 -   Download the [WPGraphQL repo](https://github.com/wp-graphql/wp-graphql) as a ZIP archive.
 -   Inside your WordPress admin, go to **Plugins** and then click **Add New**.
-
-![Add new plugin](./docs/plugins-add-new.png)
-
 -   Click the **Upload Plugin** button at the top of the page and upload the WPGraphQL plugin.
-
-![Upload new plugin](./docs/plugins-upload-new.png)
-
 -   Once the plugin has been added, activate it from either the **Activate Plugin** button displayed after uploading or from the **Plugins** page.
-
-![WPGraphQL installed](./docs/plugin-installed.png)
 
 #### Optional: Add WPGraphiQL
 
 The [WPGraphiQL](https://github.com/wp-graphql/wp-graphiql) plugin gives you access to a GraphQL IDE directly from your WordPress Admin, allowing you to inspect and play around with the GraphQL API.
 
 The process to add WPGraphiQL is the same as the one for WPGraphQL: Go to the [WPGraphiQL repo](https://github.com/wp-graphql/wp-graphiql), download the ZIP archive, and install it as a plugin in your WordPress site. Once that's done you should be able to access the GraphiQL page in the admin:
-
-![WPGraphiQL page](./docs/wp-graphiql.png)
 
 ### Step 2. Populate Content
 
@@ -58,8 +48,6 @@ Inside your WordPress admin, go to **Posts** and start adding new posts:
 -   Pick an author from your WordPress users
 -   Add a **Featured Image**. You can download one from [Unsplash](https://unsplash.com/)
 -   Fill the **Excerpt** field
-
-![New post](./docs/new-post.png)
 
 When you’re done, make sure to **Publish** the posts.
 
