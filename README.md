@@ -8,7 +8,7 @@ This website showcases Next.js's using [WordPress](https://wordpress.org) as the
 
 ### [https://baolog.vercel.app/](https://baolog.vercel.app/)
 
-### Tools and Services
+### Technologies
 
 -   [Create React App](https://github.com/facebook/create-react-app)
 -   [Next](https://github.com/vercel/next.js/)
