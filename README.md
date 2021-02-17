@@ -2,11 +2,11 @@
 
 A Next.js and WordPress headless CMS based Website using GraphQL for data binding.
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using [WordPress](https://wordpress.org) as the data source in order to display and render copy and posts. Using Wordpress' GraphQL instead of Wordpress' Rest API, we can configure our query to be cleaner and more defined. Tailwind is applied for styles and layout.
+This example showcases Next.js's using [WordPress](https://wordpress.org) as the data source in order to display and render copy and posts. Using Wordpress' GraphQL instead of Wordpress' Rest API, we can configure our query to be cleaner and more defined. Tailwind is applied for styles and layout.
 
 ## Demo
 
-### [https://baokhoavu.com/Baolog](https://baokhoavu.com/Baolog)
+### [https://baolog.vercel.app/](https://baolog.vercel.app/)
 
 ## Deploy your own
 
