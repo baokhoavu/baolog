@@ -8,6 +8,16 @@ This website showcases Next.js's using [WordPress](https://wordpress.org) as the
 
 ### [https://baolog.vercel.app/](https://baolog.vercel.app/)
 
+### Tools and Services
+
+-   [Create React App](https://github.com/facebook/create-react-app)
+-   [Next](https://github.com/vercel/next.js/)
+-   [WordPress](https://github.com/WordPress/WordPress)
+-   [GraphQL](https://github.com/graphql)
+-   [Tailwind](https://github.com/tailwindlabs/tailwindcss)
+-   [Styled Components](https://styled-components.com)
+-   [Vercel](https://vercel.com?utm_source=pulakchakraborty)
+
 ### Step 3. Set up environment variables
 
 Copy the `.env.local.example` file in this directory to `.env.local` (which will be ignored by Git):
