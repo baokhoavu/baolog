@@ -1,6 +1,6 @@
 # Baolog
 
-A Next.js and WordPress headless CMS based Website using GraphQL for data binding.
+A Next.js and WordPress headless CMS based Website using GraphQL for data binding. Using an external WordPress site to post GrapHQl data, we bind posts to grab copy and images.
 
 This website showcases Next.js's using [WordPress](https://wordpress.org) as the data source in order to display and render copy and posts. Using Wordpress' GraphQL instead of Wordpress' Rest API, we can configure our query to be cleaner and more defined. Tailwind is applied for styles and layout.
 
