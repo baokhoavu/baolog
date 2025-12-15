@@ -4,7 +4,7 @@ import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import { getAllPostsForHome } from "../lib/api";
+import { getAllPostsForHome } from "../lib/api_core";
 import { TITLE } from "../lib/constants";
 
 export default function Index({ allPosts: { edges }, preview }) {

@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1",
+      "slug": "post-1",
+      "excerpt": "Excerpt 1",
+      "publishedAt": "2025-01-01",
+      "mainImage": null,
+      "author": { "name": "Author 1", "image": null },
+      "categories": [],
+      "tags": [],
+      "body": "Content 1"
+    },
+    {
+      "id": "2",
+      "title": "Post 2",
+      "slug": "post-2",
+      "excerpt": "Excerpt 2",
+      "publishedAt": "2025-01-02",
+      "mainImage": null,
+      "author": { "name": "Author 2", "image": null },
+      "categories": [],
+      "tags": [],
+      "body": "Content 2"
+    }
+  ]
+}
