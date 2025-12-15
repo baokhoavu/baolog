@@ -69,22 +69,27 @@ export default function Post({ post, posts, preview }) {
 }
 
 export async function getStaticProps({ params, preview = false, previewData }) {
-    const data = await getPostAndMorePosts(params.slug, preview, previewData);
-
-    return {
-        props: {
-            preview,
-            post: data.post,
-            posts: data.posts,
-        },
-    };
+    try {
+        const data = await getPostAndMorePosts(params.slug, preview, previewData);
+        return {
+            props: {
+                preview,
+                post: data.post,
+                posts: data.posts,
+            },
+        };
+    } catch (err) {
+        console.error('getStaticProps post error:', err && err.stack ? err.stack : err);
+        return { props: { preview, post: {}, posts: { edges: [] } } };
+    }
 }
 
 export async function getStaticPaths() {
-    const allPosts = await getAllPostsWithSlug();
-
-    return {
-        paths: allPosts.edges.map(({ node }) => `/posts/${node.slug}`) || [],
-        fallback: true,
-    };
+    try {
+        const allPosts = await getAllPostsWithSlug();
+        return { paths: allPosts.edges.map(({ node }) => `/posts/${node.slug}`) || [], fallback: true };
+    } catch (err) {
+        console.error('getStaticPaths error:', err && err.stack ? err.stack : err);
+        return { paths: [], fallback: true };
+    }
 }
