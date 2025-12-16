@@ -3,14 +3,15 @@ export default function Avatar({ author }) {
     ? author.firstName && author.lastName
       ? `${author.firstName} ${author.lastName}`
       : author.name
-    : null
-
+    : null;
+  const fallback = 'https://placehold.co/48x48?text=No+Avatar';
+  const avatarUrl = author?.avatar?.url || fallback;
   return (
     <>
       {author && (
         <div className="flex items-center">
           <img
-            src={author.avatar.url}
+            src={avatarUrl}
             className="w-12 h-12 rounded-full mr-4"
             alt={name}
           />
@@ -18,5 +19,5 @@ export default function Avatar({ author }) {
         </div>
       )}
     </>
-  )
+  );
 }

@@ -1,0 +1,44 @@
+2025-12-15T19:37:54.972Z fetchFromCms: non-ok 404 http://localhost:4001/posts
+2025-12-15T19:37:54.982Z fetchFromCms: non-ok 404 http://localhost:4001/posts/post-1
+2025-12-15T19:37:55.003Z fetchFromCms: non-ok 404 http://localhost:4001/posts
+2025-12-15T19:37:55.526Z fetchFromCms: non-ok 404 http://localhost:4001/posts/post-1
+2025-12-15T19:37:55.530Z fetchFromCms: non-ok 404 http://localhost:4001/posts
+2025-12-15T19:37:56.224Z fetchFromCms: non-ok 404 http://localhost:4001/posts
+2025-12-15T19:38:56.848Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:38:56.994Z fetchFromCms error for http://localhost:4000/posts/post-1: fetch failed
+2025-12-15T19:38:57.005Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:06.229Z fetchFromCms error for http://localhost:4000/posts/post-1: fetch failed
+2025-12-15T19:39:06.233Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:06.776Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:11.050Z fetchFromCms error for http://localhost:4000/posts/post-1: fetch failed
+2025-12-15T19:39:11.055Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:11.605Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:11.865Z fetchFromCms: too many attempts for /posts/post-1
+2025-12-15T19:39:11.865Z fetchFromCms: too many attempts for /posts
+2025-12-15T19:39:12.459Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:13.480Z fetchFromCms error for http://localhost:4000/posts/post-2: fetch failed
+2025-12-15T19:39:13.480Z fetchFromCms: too many attempts for /posts
+2025-12-15T19:39:14.068Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:17.415Z fetchFromCms: too many attempts for /posts/post-1
+2025-12-15T19:39:17.415Z fetchFromCms: too many attempts for /posts
+2025-12-15T19:39:17.937Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:18.187Z fetchFromCms error for http://localhost:4000/posts/post-2: fetch failed
+2025-12-15T19:39:18.188Z fetchFromCms: too many attempts for /posts
+2025-12-15T19:39:18.697Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:39:18.960Z fetchFromCms: too many attempts for /posts/post-1
+2025-12-15T19:39:18.961Z fetchFromCms: too many attempts for /posts
+2025-12-15T19:39:19.471Z fetchFromCms error for http://localhost:4000/posts/post-2: fetch failed
+2025-12-15T19:39:19.471Z fetchFromCms: too many attempts for /posts
+2025-12-15T19:39:19.487Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T19:42:47.029Z fetchFromCms error for http://localhost:4001/posts: fetch failed
+2025-12-15T19:42:47.063Z fetchFromCms error for http://localhost:4001/posts/post-2: fetch failed
+2025-12-15T19:42:47.069Z fetchFromCms error for http://localhost:4001/posts: fetch failed
+2025-12-15T19:56:21.401Z fetchFromCms error for http://localhost:4001/posts: fetch failed
+2025-12-15T19:56:21.430Z fetchFromCms error for http://localhost:4001/posts/how-to-use-nextjs-mock-data: fetch failed
+2025-12-15T19:56:21.436Z fetchFromCms error for http://localhost:4001/posts: fetch failed
+2025-12-15T20:03:06.912Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T20:03:07.348Z fetchFromCms error for http://localhost:4000/posts/building-scalable-nextjs-blog-typescript: fetch failed
+2025-12-15T20:03:07.636Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T20:03:09.565Z fetchFromCms error for http://localhost:4000/posts/building-scalable-nextjs-blog-typescript: fetch failed
+2025-12-15T20:03:09.568Z fetchFromCms error for http://localhost:4000/posts: fetch failed
+2025-12-15T20:03:10.393Z fetchFromCms error for http://localhost:4000/posts: fetch failed

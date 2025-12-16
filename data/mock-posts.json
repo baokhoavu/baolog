@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Building a Scalable Next.js Blog with TypeScript",
+      "slug": "building-scalable-nextjs-blog-typescript",
+      "excerpt": "A comprehensive guide to building a production-ready blog using Next.js, TypeScript, and Tailwind CSS for optimal performance.",
+      "publishedAt": "2025-01-15",
+      "mainImage": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      "author": { "name": "Bao V", "image": "https://randomuser.me/api/portraits/men/32.jpg" },
+      "categories": [ { "title": "Next.js" }, { "title": "TypeScript" }, { "title": "Web Development" } ],
+      "tags": [ { "title": "nextjs" }, { "title": "typescript" }, { "title": "tutorial" }, { "title": "performance" } ],
+      "body": "<h2>Introduction</h2><p>Building a modern blog requires careful consideration of architecture, performance, and maintainability. In this guide, we'll explore how to create a scalable blog using Next.js, TypeScript, and Tailwind CSS.</p><h2>Why Next.js?</h2><p>Next.js provides excellent features for building blogs including:</p><ul><li>Static Site Generation (SSG) for fast load times</li><li>Server-Side Rendering (SSR) for dynamic content</li><li>Automatic code splitting and optimization</li><li>Built-in image optimization</li></ul><h2>Getting Started</h2><p>First, create a new Next.js project with TypeScript support:</p><pre><code>npx create-next-app@latest my-blog --typescript</code></pre><h2>Conclusion</h2><p>With Next.js and TypeScript, you can build a powerful, maintainable blog that performs well and scales with your content needs.</p>"
+    },
+    {
+      "id": "2",
+      "title": "Optimizing Core Web Vitals for Better SEO",
+      "slug": "optimizing-core-web-vitals-seo",
+      "excerpt": "Learn how to improve your website's performance and SEO rankings by optimizing Core Web Vitals: LCP, FID, and CLS.",
+      "publishedAt": "2025-01-12",
+      "mainImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "author": { "name": "Jane Smith", "image": "https://randomuser.me/api/portraits/women/44.jpg" },
+      "categories": [ { "title": "Performance" }, { "title": "SEO" }, { "title": "Web Development" } ],
+      "tags": [ { "title": "performance" }, { "title": "seo" }, { "title": "web-vitals" }, { "title": "optimization" } ],
+      "body": "<h2>Understanding Core Web Vitals</h2><p>Google's Core Web Vitals are essential metrics that measure real-world user experience on your website. These three metrics are:</p><h3>1. Largest Contentful Paint (LCP)</h3><p>LCP measures the time it takes for the largest content element to become visible. Aim for 2.5 seconds or less.</p><h3>2. First Input Delay (FID)</h3><p>FID measures the responsiveness of your page to user interactions. Keep it below 100 milliseconds.</p><h3>3. Cumulative Layout Shift (CLS)</h3><p>CLS measures visual stability. Maintain a CLS score below 0.1 to avoid unexpected layout changes.</p><h2>Optimization Techniques</h2><p>Implement lazy loading, code splitting, image optimization, and caching strategies to improve these metrics significantly.</p>"
+    },
+    {
+      "id": "3",
+      "title": "React Hooks: A Deep Dive into useState and useEffect",
+      "slug": "react-hooks-deep-dive",
+      "excerpt": "Master React Hooks and understand how useState and useEffect work to manage state and side effects in functional components.",
+      "publishedAt": "2025-01-08",
+      "mainImage": "https://images.unsplash.com/photo-1633356122544-f134324ef6db?auto=format&fit=crop&w=800&q=80",
+      "author": { "name": "Alex Johnson", "image": "https://randomuser.me/api/portraits/men/1.jpg" },
+      "categories": [ { "title": "React" }, { "title": "JavaScript" }, { "title": "Tutorial" } ],
+      "tags": [ { "title": "react" }, { "title": "hooks" }, { "title": "javascript" }, { "title": "functional-components" } ],
+      "body": "<h2>What Are React Hooks?</h2><p>React Hooks are functions that let you use state and other React features in functional components. Before Hooks, you had to use class components to access state management.</p><h2>The useState Hook</h2><p>The useState Hook lets you add state to functional components. Here's a basic example:</p><pre><code>const [count, setCount] = useState(0);</code></pre><h2>The useEffect Hook</h2><p>The useEffect Hook lets you perform side effects in functional components. It runs after the component renders:</p><pre><code>useEffect(() => { /* effect logic */ }, [dependencies]);</code></pre><h2>Best Practices</h2><p>Always list all dependencies in the dependency array, keep effects focused on a single concern, and use cleanup functions to prevent memory leaks.</p>"
+    },
+    {
+      "id": "4",
+      "title": "Deploying Your App to Vercel: Complete Guide",
+      "slug": "deploying-vercel-complete-guide",
+      "excerpt": "A step-by-step guide to deploying your Next.js applications to Vercel with continuous deployment and monitoring.",
+      "publishedAt": "2025-01-05",
+      "mainImage": "https://images.unsplash.com/photo-1460925895917-aeb19be489c7?auto=format&fit=crop&w=800&q=80",
+      "author": { "name": "Sarah Williams", "image": "https://randomuser.me/api/portraits/women/23.jpg" },
+      "categories": [ { "title": "Deployment" }, { "title": "DevOps" }, { "title": "Hosting" } ],
+      "tags": [ { "title": "vercel" }, { "title": "deployment" }, { "title": "ci-cd" }, { "title": "nextjs" } ],
+      "body": "<h2>Why Choose Vercel?</h2><p>Vercel is the platform built by the creators of Next.js, offering seamless deployment, automatic scaling, and built-in analytics.</p><h2>Pre-Deployment Checklist</h2><ul><li>Ensure your project is in a Git repository</li><li>Set up environment variables</li><li>Test your application locally</li><li>Create a production-ready build</li></ul><h2>Deploying to Vercel</h2><p>Connect your GitHub/GitLab repository to Vercel, configure your project settings, and deploy with a single click. Vercel automatically rebuilds and deploys on every push to your main branch.</p><h2>Monitoring and Analytics</h2><p>Use Vercel's built-in analytics to monitor performance, track user interactions, and get insights into your application's health.</p>"
+    },
+    {
+      "id": "5",
+      "title": "CSS Grid vs Flexbox: When to Use Each",
+      "slug": "css-grid-vs-flexbox",
+      "excerpt": "Understanding the differences between CSS Grid and Flexbox and learning when to use each layout method for optimal responsive design.",
+      "publishedAt": "2024-12-30",
+      "mainImage": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80",
+      "author": { "name": "Michael Chen", "image": "https://randomuser.me/api/portraits/men/45.jpg" },
+      "categories": [ { "title": "CSS" }, { "title": "Design" }, { "title": "Frontend" } ],
+      "tags": [ { "title": "css" }, { "title": "layout" }, { "title": "grid" }, { "title": "flexbox" }, { "title": "responsive" } ],
+      "body": "<h2>Flexbox: One-Dimensional Layout</h2><p>Flexbox is designed for distributing items in one dimension (rows or columns). It's perfect for navigation bars, button groups, and linear layouts.</p><h2>CSS Grid: Two-Dimensional Layout</h2><p>CSS Grid handles two-dimensional layouts, making it ideal for page layouts with multiple rows and columns. Use Grid for overall page structure.</p><h2>When to Use Flexbox</h2><ul><li>Navigation menus</li><li>Centering content</li><li>Creating responsive rows</li><li>Aligning items in a single direction</li></ul><h2>When to Use Grid</h2><ul><li>Page layouts</li><li>Complex card layouts</li><li>Multi-column designs</li><li>Two-dimensional control needed</li></ul><h2>Combining Both</h2><p>Use Grid for the overall page layout and Flexbox for components within Grid cells. This combination gives you flexibility and powerful layout control.</p>"
+    },
+    {
+      "id": "6",
+      "title": "Building Real-Time Applications with WebSockets",
+      "slug": "realtime-apps-websockets",
+      "excerpt": "Learn how to build real-time applications using WebSockets, Socket.io, and modern JavaScript frameworks.",
+      "publishedAt": "2024-12-25",
+      "mainImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+      "author": { "name": "Bao V", "image": "https://randomuser.me/api/portraits/men/32.jpg" },
+      "categories": [ { "title": "Node.js" }, { "title": "Real-Time" }, { "title": "Backend" } ],
+      "tags": [ { "title": "websockets" }, { "title": "socket.io" }, { "title": "real-time" }, { "title": "nodejs" } ],
+      "body": "<h2>Introduction to WebSockets</h2><p>WebSockets provide a full-duplex communication channel over a single TCP connection, enabling real-time bidirectional communication.</p><h2>Setting Up Socket.io</h2><pre><code>const io = require('socket.io')(3000);</code></pre><h2>Event Handling</h2><p>Socket.io allows you to emit and listen for custom events between client and server in real-time.</p><h2>Use Cases</h2><ul><li>Chat applications</li><li>Live notifications</li><li>Collaborative tools</li><li>Real-time dashboards</li></ul><h2>Best Practices</h2><p>Handle reconnection logic, implement proper error handling, use namespaces for organization, and consider scalability with Redis adapters for multiple servers.</p>"
+    }
+  ]
+}

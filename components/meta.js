@@ -2,8 +2,11 @@ import Head from "next/head";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "../lib/constants";
 
 export default function Meta() {
+    // You can override this by passing a prop if needed
+    const title = "Bao Next Wordpress Headless";
     return (
         <Head>
+            <title>{title}</title>
             <link
                 rel="apple-touch-icon"
                 sizes="180x180"

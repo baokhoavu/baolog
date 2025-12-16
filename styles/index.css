@@ -12,26 +12,27 @@
 @tailwind utilities;
 /* Stop purging. */
 
-/* Your own custom utilities */
+/* Your own custom utilities (plain CSS equivalents for previous @apply usages) */
 
 .has-text-align-left {
-	@apply text-left;
+	text-align: left;
 }
 
 .has-text-align-center {
-	@apply text-center;
+	text-align: center;
 }
 
 .has-text-align-right {
-	@apply text-right;
+	text-align: right;
 }
 
 .has-large-font-size {
-	@apply text-4xl;
+	font-size: 2.25rem; /* approximate text-4xl */
 }
 
 .alignfull {
-	@apply w-screen relative;
+	width: 100vw; /* w-screen */
+	position: relative; /* relative */
 
 	left: 50%;
 	margin-left: -50vw;
@@ -41,70 +42,87 @@
 }
 
 .wp-block-image img {
-	@apply max-w-full mt-2;
+	max-width: 100%;
+	margin-top: 0.5rem; /* mt-2 */
 }
 
 .wp-block-image.aligncenter {
-	@apply text-center;
+	text-align: center;
 }
 
 .wp-block-image.alignfull img,
 .wp-block-image.alignwide img {
-	@apply w-full;
+	width: 100%;
 }
 
 .wp-block-image .alignleft,
 .wp-block-image .alignright,
 .wp-block-image .aligncenter,
 .wp-block-image.is-resized {
-	@apply table ml-0 mr-0;
+	display: table;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .wp-block-image .alignleft>figcaption,
 .wp-block-image .alignright>figcaption,
 .wp-block-image .aligncenter>figcaption,
 .wp-block-image.is-resized>figcaption {
-	@apply table-caption;
+	display: table-caption;
 
 	caption-side: bottom;
 }
 
 .wp-block-image .alignleft {
-	@apply float-left mr-4;
+	float: left;
+	margin-right: 1rem; /* mr-4 */
 }
 
 .wp-block-image .alignright {
-	@apply float-right ml-4;
+	float: right;
+	margin-left: 1rem; /* ml-4 */
 }
 
 .wp-block-image .aligncenter {
-	@apply m-auto;
+	margin: 0 auto; /* m-auto */
 }
 
 .wp-block-button a,
 .wp-block-file a.wp-block-file__button {
-	@apply bg-blue-500 text-white no-underline py-2 px-4;
+	background-color: #3b82f6; /* bg-blue-500 */
+	color: #ffffff;
+	text-decoration: none; /* no-underline */
+	padding: 0.5rem 1rem; /* py-2 px-4 */
 }
 
 .wp-block-button a:hover,
 .wp-block-file a.wp-block-file__button:hover {
-	@apply bg-blue-400 cursor-pointer;
+	background-color: #60a5fa; /* bg-blue-400 */
+	cursor: pointer;
 }
 
 .wp-block-file a:first-of-type {
-	@apply mr-4;
+	margin-right: 1rem; /* mr-4 */
 }
 
 .wp-block-cover {
-	@apply flex flex-wrap justify-center items-center bg-cover bg-center overflow-hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-size: cover; /* bg-cover */
+	background-position: center; /* bg-center */
+	overflow: hidden;
 
 	min-height: 430px;
 }
 
 .wp-block-verse {
-	@apply font-sans;
+	font-family: sans-serif; /* font-sans */
 }
 
 .wp-block-media-text {
-	@apply grid grid-cols-2 gap-4;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr)); /* grid-cols-2 */
+	gap: 1rem; /* gap-4 */
 }
