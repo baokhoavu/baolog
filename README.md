@@ -1,53 +1,71 @@
 # Baolog
 
-A Next.js and WordPress headless CMS based Website using GraphQL for data binding. Using an external WordPress site to post GrapHQl data, we bind posts to grab copy and images.
+A modern Next.js blog application using Sanity as a headless CMS for content management. This project demonstrates headless architecture with GraphQL data binding, featuring responsive design with Tailwind CSS.
 
-This website showcases Next.js's using [WordPress](https://wordpress.org) as the data source in order to display and render copy and posts. Using Wordpress' GraphQL instead of Wordpress' Rest API, we can configure our query to be cleaner and more defined. Tailwind is applied for styles and layout.
+## Features
+
+- **Headless CMS Integration**: Powered by Sanity for flexible content management
+- **Static Site Generation**: Optimized performance with Next.js SSG
+- **Responsive Design**: Mobile-first styling with Tailwind CSS
+- **GraphQL Queries**: Efficient data fetching with clean, defined queries
+- **Preview Mode**: Draft content preview capabilities
 
 ## Demo
 
-### [https://baolog.vercel.app/](https://baolog.vercel.app/)
+[https://baolog.vercel.app/](https://baolog.vercel.app/)
 
-### Technologies
+## Technologies
 
--   [Create React App](https://github.com/facebook/create-react-app)
--   [Next](https://github.com/vercel/next.js/)
--   [WordPress](https://github.com/WordPress/WordPress)
--   [GraphQL](https://github.com/graphql)
--   [Tailwind](https://github.com/tailwindlabs/tailwindcss)
--   [Styled Components](https://styled-components.com)
--   [Vercel](https://vercel.com?utm_source=pulakchakraborty)
+- [Next.js](https://github.com/vercel/next.js/) - React framework for production
+- [Sanity](https://www.sanity.io/) - Headless CMS
+- [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) - Utility-first CSS framework
+- [Vercel](https://vercel.com/) - Deployment platform
 
-### Step 3. Set up environment variables
+## Installation
 
-Copy the `.env.local.example` file in this directory to `.env.local` (which will be ignored by Git):
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/baolog.git
+   cd baolog
+   ```
 
-```bash
-cp .env.local.example .env.local
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Then open `.env.local` and set `WORDPRESS_API_URL` to be the URL to your GraphQL endpoint in WordPress. For example: `https://myapp.wpengine.com/graphql`.
+3. **Set up environment variables**
 
-Your `.env.local` file should look like this:
+   Copy the example environment file and configure your Sanity credentials:
 
-```bash
-WORDPRESS_API_URL=...
+   ```bash
+   cp .env.sanity.example .env.local
+   ```
 
-# Only required if you want to enable preview mode
-# WORDPRESS_AUTH_REFRESH_TOKEN=
-# WORDPRESS_PREVIEW_SECRET=
-```
+   Edit `.env.local` with your Sanity project details:
 
-### Step 4. Run Next.js in development mode
+   ```bash
+   SANITY_PROJECT_ID=your_project_id
+   SANITY_DATASET=production
+   SANITY_READ_TOKEN=your_read_token  # optional, for drafts
+   SANITY_API_VERSION=2025-01-01
+   ```
 
-```bash
-npm install
-npm run dev
+4. **Run in development mode**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-# or
+   Your blog will be available at [http://localhost:3000](http://localhost:3000)
 
-yarn install
-yarn dev
-```
+## Deployment
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+Deploy to Vercel with your environment variables set in the dashboard.
+
+## License
+
+This project is licensed under the MIT License.
